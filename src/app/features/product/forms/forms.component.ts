@@ -33,11 +33,7 @@ export class FormsComponent {
     this.productService.post({
       title: this.form.controls.title.value
     }).subscribe(() => {
-      this._snackbar.open("Criado com sucesso!","Ok", {
-        duration: 3000,
-        horizontalPosition: 'right',
-        verticalPosition: 'top'
-      });
+      this._snackbar.open("Criado com sucesso!","Ok");
 
       this._router.navigateByUrl("/")
     })
