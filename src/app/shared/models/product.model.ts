@@ -1,4 +1,4 @@
-export type AddProduct = Omit<Product, 'id' | 'title'>
+export type ProductRequest = Omit<Product, 'id' | 'title'>
 
 export class Product {
   id!: string

@@ -23,7 +23,7 @@ export class ProductListComponent {
     this.productService.getAll().subscribe(products => this.products = products)
   }
 
-  onEdit() {
-    this._router.navigateByUrl("/edit")
+  onEdit(product: Product) {
+    this._router.navigate(['/edit', product.id])
   }
 }
