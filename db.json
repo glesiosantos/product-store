@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "Product title 1"
+      "isTrusted": true,
+      "id": "1"
     }
   ]
 }
