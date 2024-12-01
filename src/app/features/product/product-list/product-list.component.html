@@ -4,7 +4,7 @@
 
 <div class="container-list">
   @for (product of products; track product.id) {
-    <app-card [product]="product" (edit)="onEdit(product)"/>
+    <app-card [product]="product" (onEdit)="onEdit(product)" (onDelete)="onDelete(product)"/>
   }
 </div>
 
