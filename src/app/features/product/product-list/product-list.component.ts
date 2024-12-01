@@ -27,5 +27,8 @@ export class ProductListComponent {
     this.productService.getAll().subscribe(products => this.products = products)
   }
 
+  onEdit(product: Product) {
+    this._router.navigate(['edit', product.id])
+  }
 
 }

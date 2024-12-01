@@ -1,12 +1,12 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "Teste de Produto"
+      "title": "Hub de 8 portas",
+      "id": "1"
     },
     {
-      "id": "aad1",
-      "title": "Monitor TV LG"
+      "title": "Monitor TV LG LCD",
+      "id": "aad1"
     },
     {
       "id": "ceda",
@@ -19,6 +19,10 @@
     {
       "id": "785f",
       "title": "Galinha chata"
+    },
+    {
+      "id": "b31d",
+      "title": "Celular Motorola"
     }
   ]
 }
