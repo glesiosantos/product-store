@@ -1,8 +1,12 @@
 {
   "products": [
     {
-      "isTrusted": true,
+      "title": "Hub de 8 portas fdasa",
       "id": "1"
+    },
+    {
+      "id": "6624",
+      "title": "Ventilador de Mesa"
     }
   ]
 }

@@ -21,5 +21,6 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideAnimationsAsync(),
     provideHttpClient(),
-    SNACK_BAR_CONFIG]
+    SNACK_BAR_CONFIG
+  ]
 };
