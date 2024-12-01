@@ -9,7 +9,11 @@ import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [CardComponent, RouterLink, MatButtonModule],
+  imports: [
+    CardComponent,
+    RouterLink,
+    MatButtonModule
+  ],
   templateUrl: './product-list.component.html',
   styleUrl: './product-list.component.scss'
 })
@@ -23,7 +27,5 @@ export class ProductListComponent {
     this.productService.getAll().subscribe(products => this.products = products)
   }
 
-  onEdit(product: Product) {
-    this._router.navigate(['/edit', product.id])
-  }
+
 }
